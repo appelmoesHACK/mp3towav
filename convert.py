@@ -1,7 +1,6 @@
 # copyright appelmoesGG
 
 import os
-os.system('sudo apt install mpg321')
 os.chdir('/mnt/chromeos/MyFiles/klanken/orkestklanken')
 
 for dir in os.listdir():
