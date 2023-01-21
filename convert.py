@@ -14,5 +14,5 @@ for dir in os.listdir():
            os.system('mpg321 -q -w ' +  nomp3 + ".wav " + f)
            print('Converted ' + f)
     os.system('rm *.mp3')
-    os.chdir('/home/appelmoes/Documents/klanken/instrumenten/')
+    os.chdir('/home/appelmoes/Documents/klanken/orkestklanken/')
     print('Finsished with ' + dir)
